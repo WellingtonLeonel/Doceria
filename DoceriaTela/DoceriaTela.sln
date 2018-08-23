@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoceriaTela", "DoceriaTela\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{B65EBC13-B143-4573-B4AE-3B7B485B5999}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{48D09AB7-D245-41E6-8876-ABDEB7D108C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B65EBC13-B143-4573-B4AE-3B7B485B5999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B65EBC13-B143-4573-B4AE-3B7B485B5999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B65EBC13-B143-4573-B4AE-3B7B485B5999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D09AB7-D245-41E6-8876-ABDEB7D108C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D09AB7-D245-41E6-8876-ABDEB7D108C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D09AB7-D245-41E6-8876-ABDEB7D108C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D09AB7-D245-41E6-8876-ABDEB7D108C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
