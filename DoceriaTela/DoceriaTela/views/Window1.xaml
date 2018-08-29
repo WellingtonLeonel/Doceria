@@ -1,11 +1,11 @@
-﻿<Window x:Class="DoceriaTela.viewModels.Window1"
+﻿<Window x:Class="DoceriaTela.views.Window1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DoceriaTela.viewModels"
+        xmlns:local="clr-namespace:DoceriaTela.views"
         mc:Ignorable="d"
-        Title="Window1" Height="300" Width="300">
+        Title="Window1" Height="600" Width="600">
     <Grid Margin="0,0,2,0">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -13,15 +13,31 @@
                 <GradientStop Color="#FFB7E2B5" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <ListBox x:Name="opcoesDoce" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="290" Background="#FF707425"/>
-        <ListBox x:Name="opcoesAdicionais" HorizontalAlignment="Left" Height="40" Margin="0,55,0,0" VerticalAlignment="Top" Width="290" RenderTransformOrigin="0.5,-0.444" Background="#FF707425"/>
         <CheckBox Content="100 ml" HorizontalAlignment="Left" Margin="0,165,0,0" VerticalAlignment="Top" Height="25" RenderTransformOrigin="0,-0.25" Checked="CheckBox_Checked" Background="#FFEADADA"/>
         <CheckBox Content="150 ml&#xD;&#xA;" HorizontalAlignment="Left" Margin="85,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,-0.667" Height="35" Background="#FFEADADA"/>
         <CheckBox Content="200 ml" HorizontalAlignment="Left" Margin="169,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.352,-0.333" Height="15" Background="#FFEADADA"/>
         <Button x:Name="FinalizarCompra" Content="Finalizar" Margin="240,230,0,0" VerticalAlignment="Top" Height="29" RenderTransformOrigin="0.2,0.345" Background="#FF6D6DE0"/>
-        <ListBox x:Name="opcoesAdicionais_Copy" HorizontalAlignment="Left" Height="40" Margin="0,55,0,0" VerticalAlignment="Top" Width="290" RenderTransformOrigin="0.5,-0.444" Background="#FF707425"/>
-        <ListBox HorizontalAlignment="Left" Height="40" Margin="0,110,0,0" VerticalAlignment="Top" Width="290" Background="#FF707425"/>
         <Border x:Name="Total" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="29" Margin="0,240,0,0" VerticalAlignment="Top" Width="105" Background="#FFE8E3E3"/>
+        <ComboBox HorizontalAlignment="center" VerticalAlignment="top" Width="550" Height="40">
+            <ListBoxItem Content="Mousse"/>
+            <ListBoxItem Content="Pavê"/>
+            <ListBoxItem Content="Pudim"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="20,55,0,0" VerticalAlignment="Top" Width="550" Height="40">
+            <ListBoxItem Content="Limão"/>
+            <ListBoxItem Content="Uva"/>
+            <ListBoxItem Content="Morango"/>
+            <ListBoxItem Content="Coco"/>
+            <ListBoxItem Content="Leite"/>
+            <ListBoxItem Content="Maracujá"/>
+            <ListBoxItem Content="Bis"/>
+            <ListBoxItem/>
+            <ListBoxItem Content="Ouro branco"/>
+            <ListBoxItem Content="Abacaxi"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="20,110,0,0" VerticalAlignment="Top" Width="550" Height="40">
+            <TabItem Content="Cocholate em pó"/>
+        </ComboBox>
 
     </Grid>
 </Window>

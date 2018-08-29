@@ -65,7 +65,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="viewModels\Window1.xaml.cs">
+    <Compile Include="views\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -97,10 +97,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="views\" />
+    <Folder Include="viewModels\" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="viewModels\Window1.xaml">
+    <Page Include="views\Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

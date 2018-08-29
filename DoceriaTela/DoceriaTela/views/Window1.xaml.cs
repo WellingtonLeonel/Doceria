@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace DoceriaTela.viewModels
+namespace DoceriaTela.views
 {
     /// <summary>
     /// Lógica interna para Window1.xaml
