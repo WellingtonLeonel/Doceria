@@ -28,5 +28,10 @@ namespace DoceriaTela.views
         {
 
         }
+
+        private void FinalizarCompra_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
