@@ -17,8 +17,44 @@
             <RowDefinition Height="0.5*"/>
             <RowDefinition Height="2.5*"/>
             <RowDefinition Height="0.5*"/>
-
-
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="                Cadastro de clientes" HorizontalAlignment="Left" Height="50" Margin="110,0,0,0" VerticalAlignment="Top" Width="490" Foreground="#FFF9F4F4" FontSize="36" FontFamily="Times New Roman"/>
+        <Border BorderBrush="#FFF3EEEE" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="35,40,0,0" Grid.Row="1" VerticalAlignment="Top" Width="730" Background="#FFF5ECEC">
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+        </Border>
+        <Border BorderBrush="#FFF5EDED" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="35,130,0,0" Grid.Row="1" VerticalAlignment="Top" Width="730" Background="#FFF7EEEE">
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+        </Border>
+        <Border BorderBrush="#FFFFF8F8" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="35,225,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Background="#FFF7F1F1">
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+        </Border>
+        <Border BorderBrush="#FFF9F4F4" BorderThickness="1" HorizontalAlignment="Left" Height="40" Margin="455,225,0,0" Grid.Row="1" VerticalAlignment="Top" Width="285" Background="#FFF7F1F1">
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+        </Border>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="35,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" Width="110" Foreground="#FFF7F3F3" FontSize="22" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="35,100,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Endereço" VerticalAlignment="Top" Width="95" Foreground="#FFF9F4F4" FontSize="22" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="35,195,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Idade" VerticalAlignment="Top" Width="110" Foreground="#FFF9F5F5" FontSize="22" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="455,195,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Telefone" VerticalAlignment="Top" Width="105" Foreground="#FFF5F1F1" FontSize="22" FontFamily="Times New Roman"/>
+        <Button Content="Voltar" HorizontalAlignment="Left" Height="40" Margin="35,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="125" Background="#FFE23636" FontSize="27" FontFamily="Times New Roman">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Finalizar" HorizontalAlignment="Left" Height="40" Margin="638,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="127" Background="#FF8A7EA8" FontSize="27" FontFamily="Times New Roman">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
     </Grid>
 </Window>
