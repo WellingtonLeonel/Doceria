@@ -65,6 +65,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="views\Tabela2.xaml.cs">
+      <DependentUpon>Tabela2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="views\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,10 @@
     <Folder Include="viewModels\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="views\Tabela2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="views\Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
