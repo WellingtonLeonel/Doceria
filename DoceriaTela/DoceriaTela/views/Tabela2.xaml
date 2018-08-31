@@ -46,12 +46,12 @@
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="35,100,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Endereço" VerticalAlignment="Top" Width="95" Foreground="#FFF9F4F4" FontSize="22" FontFamily="Times New Roman"/>
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="35,195,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Idade" VerticalAlignment="Top" Width="110" Foreground="#FFF9F5F5" FontSize="22" FontFamily="Times New Roman"/>
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="455,195,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Telefone" VerticalAlignment="Top" Width="105" Foreground="#FFF5F1F1" FontSize="22" FontFamily="Times New Roman"/>
-        <Button Content="Voltar" HorizontalAlignment="Left" Height="40" Margin="35,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="125" Background="#FFE23636" FontSize="27" FontFamily="Times New Roman">
+        <Button x:Name="voltar" Content="Voltar" HorizontalAlignment="Left" Height="40" Margin="35,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="125" Background="#FFE23636" FontSize="27" FontFamily="Times New Roman" Click="voltar_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Content="Finalizar" HorizontalAlignment="Left" Height="40" Margin="638,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="127" Background="#FF8A7EA8" FontSize="27" FontFamily="Times New Roman">
+        <Button x:Name="finalizar" Content="Finalizar" HorizontalAlignment="Left" Height="40" Margin="638,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="127" Background="#FF8A7EA8" FontSize="27" FontFamily="Times New Roman" Click="finalizar_Click">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

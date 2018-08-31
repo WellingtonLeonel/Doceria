@@ -15,28 +15,13 @@ using System.Windows.Shapes;
 namespace DoceriaTela.views
 {
     /// <summary>
-    /// Lógica interna para Tabela2.xaml
+    /// Lógica interna para Janela3.xaml
     /// </summary>
-    public partial class Tabela2 : Window
+    public partial class Janela3 : Window
     {
-        public Tabela2()
+        public Janela3()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            
-        }
-
-        private void voltar_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void finalizar_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
