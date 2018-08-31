@@ -82,7 +82,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="190,24,0,0" TextWrapping="Wrap" Text="Escolha o doce" VerticalAlignment="Top" RenderTransformOrigin="0.612,0" FontSize="16" FontFamily="Times New Roman" Foreground="#FFF3EFEF" Width="180"/>
         <TextBlock HorizontalAlignment="Left" Margin="190,82,0,0" TextWrapping="Wrap" Text="Escolha o sabor" VerticalAlignment="Top" Foreground="#FFFBFAFA" FontSize="16" FontFamily="Times New Roman" Width="146" RenderTransformOrigin="0.514,-0.278"/>
         <TextBlock HorizontalAlignment="Left" Margin="190,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFFBFAFA" FontFamily="Times New Roman" FontSize="16" Width="185"><Run Text="Escolha o "/><Run Text="adicional"/></TextBlock>
-        <Button Content="Registrar pedido" HorizontalAlignment="Left" Height="29" Margin="340,241,0,0" VerticalAlignment="Top" Width="105" Background="#FFF36B37">
+        <Button x:Name="registrar" Content="Registrar pedido" HorizontalAlignment="Left" Height="29" Margin="340,241,0,0" VerticalAlignment="Top" Width="105" Background="#FFF36B37">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

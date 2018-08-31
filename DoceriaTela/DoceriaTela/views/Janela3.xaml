@@ -38,6 +38,7 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
+        <StackPanel HorizontalAlignment="Left" Height="45" Margin="580,55,0,0" Grid.Row="1" VerticalAlignment="Top" Width="30"/>
 
 
     </Grid>
